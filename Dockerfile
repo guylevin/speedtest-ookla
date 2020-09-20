@@ -9,5 +9,7 @@ RUN wget -O speedtest.tgz \
 	&& tar zxvf speedtest.tgz \
 	&& chmod +x speedtest
 
-CMD ./speedtest --accept-license
+RUN cp ./speedtest /usr/bin/
+
+ENTRYPOINT "/bin/sh"
 
