@@ -4,8 +4,10 @@ Run Speedtest by Ookla from a Docker container
 
 # Usage
 ### Run a speedtest  
+  
 The container is hosted on DockerHub, you can pull it and run with this simple command  
 `docker run --rm -it guylevin/speedtest-ookla:latest`  
+  
 To run the test, type   
 `speedtest`   
 
@@ -13,7 +15,7 @@ To run the test, type
 ### Build
 If you want to build the container yourself  
   
-Clone this repository, navigate to the directory   
+Clone this repository, navigate to the directory and run    
 `docker build --tag guylevin/speedtest-ookla:latest .`
 
 ## License
