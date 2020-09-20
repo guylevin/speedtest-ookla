@@ -19,5 +19,5 @@ Clone this repository, navigate to the directory and run
 `docker build --tag guylevin/speedtest-ookla:latest .`
 
 ## License
-*This license uses 3rd party software from Ookla, Alpine Linux and more*  
+*This uses 3rd party software from Ookla, Alpine Linux and more*  
 Check their licenses to verify it is suitable for you.*
