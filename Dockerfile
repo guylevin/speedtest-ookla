@@ -1,4 +1,4 @@
-FROM amd64/alpine:3.14
+FROM alpine:latest
 
 RUN apk update \
 	&& apk upgrade \
