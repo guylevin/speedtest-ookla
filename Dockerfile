@@ -5,7 +5,7 @@ RUN apk update \
 	&& apk update
 
 RUN wget -O speedtest.tgz \
-	"https://install.speedtest.net/app/cli/ookla-speedtest-1.0.0-x86_64-linux.tgz" \
+	"https://install.speedtest.net/app/cli/ookla-speedtest-1.0.0-arm-linux.tgz" \
 	&& tar zxvf speedtest.tgz \
 	&& chmod +x speedtest
 
